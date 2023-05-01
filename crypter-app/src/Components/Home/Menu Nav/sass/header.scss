@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: 1px solid #b2b8b6;
+    .line{
+       width: 1px;
+       height: 100px;
+       background-color: #b2b8b6;
+       margin-left: 300px;
+    }
+}
+.navbar-left{
+    .navbar-logo{
+        display: flex;
+        div{
+            display: flex;
+            align-items: center;
+        }
+        span{
+            margin-left: 16px;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            text-transform: uppercase;
+            margin-right: 100px;
+        }
+    }
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.navbar-right {
+    ul{
+        display: flex;
+        align-items: center;
+        li{
+            cursor: pointer;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 24px;
+            letter-spacing: 0.17em;
+            text-transform: uppercase;
+            color: #202025;
+            margin-right: 60px;
+            button{
+                padding: 12px 32px;
+                border: 2px solid #555555;
+                border-radius: 4px;
+                outline: none;
+                background-color: #fff;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 12px;
+                line-height: 24px;
+                letter-spacing: 0.17em;
+                text-transform: uppercase;
+                color: #202025;
+                cursor: pointer;
+            }   
+            .burger-menu{
+                width: 24px;
+                height: 12px;
+                .burger-liner{
+                    background: #202025;
+                    border-radius: 4px;
+                    margin-bottom: 10px;
+                }
+                .burger-liner:nth-child(1){
+                    width: 24px;
+                    height: 4px;
+                }
+                .burger-liner:nth-child(2){
+                    width: 18px;
+                    height: 3px;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+}
