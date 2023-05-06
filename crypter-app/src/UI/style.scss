@@ -4,4 +4,44 @@
     font-size: 104px;
     line-height: 104px;
     color: #202025;
+    display: inline;
+}
+.outline-btn{
+    width: 308px;
+    height: 64px;
+    outline: none;
+    border: 2px solid #202025;
+    border-radius: 4px;
+    background-color: transparent;
+}
+.btn{
+    width: 308px;
+    height: 64px;
+    outline: none;
+    border: none;
+    background: #202025;
+    border-radius: 4px;
+    color: snow;
+}
+.btn, .outline-btn {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #202025;
+    color: #000;
+}
+.outline-btn:hover{
+    background: #202025;
+    color: snow;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
 }

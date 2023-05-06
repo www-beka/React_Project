@@ -3,7 +3,12 @@ import NavBar from './Components/Home/Menu Nav'
 function App() {
   return (
     <div className="App">
-        <NavBar />
+        <section>
+          <NavBar />
+        </section>
+        <section>
+          
+        </section>
     </div>
   );
 }
