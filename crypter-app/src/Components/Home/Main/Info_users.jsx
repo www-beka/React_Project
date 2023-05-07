@@ -1,4 +1,5 @@
 import next from '../../../assets/icons/Vector_next.svg'
+import scss from './sass/Info_users.scss'
 const Info_users = () => {
     return(
         <>

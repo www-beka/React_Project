@@ -1,0 +1,88 @@
+.main_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 380px;
+    .card{
+        background-color: #eee;
+        border: 1px solid #E1E2E2;
+        transition: 0.5s ease;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        div:nth-child(1), img{
+            width: 120px;
+            height: 120px;
+            border-radius: 120px;
+            background: #B9A9FB;
+        }
+        p{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            color: #202025;
+        }
+        span{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+            color: #686A6C
+        }
+        b{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+            color: #202025
+        }
+        .ranking{
+            width: 40px;
+            height: 40px;
+            background: #F7FBFA;
+            box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.06);
+            border-radius: 8px;
+            position: absolute;
+            right: 24px;
+            top: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &:hover{
+            transform: scale(1);
+            background: #F7FBFA;
+            box-shadow: -62px 62px 48px -16px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+.btn-more{
+    width: 100%;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    button{
+        border: none;
+        outline: none;
+        width: 540px;
+        height: 64px;
+        background: #202025;
+        border-radius: 4px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        color: #F7FBFA;
+        cursor: pointer;
+    }
+}

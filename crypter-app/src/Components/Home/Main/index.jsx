@@ -1,14 +1,18 @@
 import Info_users from './Info_users'
 import CardSectiom from './CardsSection'
+import sass from './sass/index.scss'
 const UserOfMonth = () => {
     return(
         <>
-            <section>
-                <Info_users />
-            </section>
-            <section>
-                <CardSectiom />
-            </section>
+            <div className="main_UserOfMonth">
+                <div>
+                    <Info_users />
+                </div>
+                <div>
+                    <CardSectiom />
+                </div>
+            </div>
+            
         </>
     )
 }
