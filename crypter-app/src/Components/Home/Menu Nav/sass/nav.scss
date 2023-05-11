@@ -1,9 +1,9 @@
-.createWork-top, .createWork-bottom{
+ .createWork-bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .createWork-top{
-    margin: 50px;
+    margin: 50px 0;
     .createWork-top-left{
         display: grid;
         grid-template-columns: 1fr 1fr;

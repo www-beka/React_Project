@@ -3,22 +3,36 @@ import nav_sass from '../sass/nav.scss';
 import left_img from '../../../../assets/images/left_nav.png'
 import next from '../../../../assets/images/next.svg'
 import circle from '../../../../assets/icons/placeholder.svg'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 const createWork = (props) => {
     return(
         <>
             <div className="nav-create-work" style={nav_sass}>
+                    
                 <div className="createWork-top">
-                    <div className="createWork-top-left">
-                        <h1 className='large-text'>Curated Artwork</h1>
-                        <button><img src={next}/></button>
-                    </div>
-                    <div className="createWork-top-right">
-                        <span>We are laying the groundwork for web3 — the next generation of the internet full of limitless possibilities.</span>
-                        <div>
-                            <p>start your search</p> 
-                            <img src={circle} alt="" />
-                        </div>
-                    </div>
+                    <Container fluid='xl'>
+                        <Row>
+                            <Col>
+                                <div className="createWork-top-left">
+                                    <h1 className='large-text'>Curated Artwork</h1>
+                                    <button><img src={next}/></button>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="createWork-top-right">
+                                    <span>We are laying the groundwork for web3 — the next generation of the internet full of limitless possibilities.</span>
+                                    <div>
+                                        <p>start your search</p> 
+                                        <img src={circle} alt="" />
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
                     <div className="createWork-bottom">
                         <div className="creatework-bottom-left">
