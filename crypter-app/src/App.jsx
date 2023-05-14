@@ -3,6 +3,7 @@ import NavBar from './Components/Home/Menu Nav'
 import Main from './Components/Home/Main'
 import DreamSccren from './Components/Home/Dream'
 import Auctionsending from './Components/Home/Auctionsending-sccren'
+import Spotlight_Sccren from './Components/Home/Spotlight-sccren'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </section>
         <section>
           <Auctionsending />
+        </section>
+        <section>
+          <Spotlight_Sccren />
         </section>
     </div>
   );
