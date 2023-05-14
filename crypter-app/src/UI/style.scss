@@ -41,7 +41,30 @@
     background: #202025;
     color: snow;
 }
-// .container{
-//     width: 90%;
-//     margin: 0 auto;
-// }
+.explorer_more_btn{
+    border: none;
+    outline: none;
+    width: 254px;
+    height: 64px;
+    background: #F7FBFA;
+    border-radius: 4px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #202025;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        width: 43px;
+        height: 28px;
+        background: #E1E2E2;
+        border-radius: 12px;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,67 @@
+.Spotlight_Sccren{
+    background-color: #010101;
+    padding-bottom: 80px;
+    h1, p{
+        width: 90%;
+        margin: 0 auto;
+        font-style: normal;
+        letter-spacing: -0.02em;
+    }
+    h1{
+        padding-top: 80px;
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 80px;
+        color: #F7FBFA;
+    }
+    p{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #686A6C;
+        margin-bottom: 64px;
+    }
+}
+.card{
+    width: 330px;
+    background-color: transparent;
+    .body-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div{
+        margin: 10px 0;
+        p{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            color: #F7FBFA;
+            margin-bottom: 0;
+        }
+        span, b{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+            color: #F7FBFA;
+            b{
+                color: #686A6C;
+            }
+        }
+    }
+}
+.main-cards{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.explorer_more_btn{
+    margin: 0px auto;
+    margin-top: 50px;
+}
