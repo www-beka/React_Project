@@ -23,7 +23,6 @@
     }
 }
 .card{
-    width: 330px;
     background-color: transparent;
     .body-card {
         display: flex;
@@ -35,7 +34,7 @@
         p{
             font-style: normal;
             font-weight: 700;
-            font-size: 24px;
+            font-size: 20px;
             line-height: 32px;
             letter-spacing: -0.02em;
             color: #F7FBFA;
@@ -48,6 +47,7 @@
             line-height: 24px;
             letter-spacing: -0.01em;
             color: #F7FBFA;
+            margin-left: 5px;
             b{
                 color: #686A6C;
             }
@@ -55,11 +55,10 @@
     }
 }
 .main-cards{
-    width: 90%;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    grid-auto-rows: auto;
 }
 .explorer_more_btn{
     margin: 0px auto;
