@@ -5,6 +5,7 @@ import DreamSccren from './Components/Home/Dream'
 import Auctionsending from './Components/Home/Auctionsending-sccren'
 import Spotlight_Sccren from './Components/Home/Spotlight-sccren'
 import YourCreative from './Components/Home/YourCreative'
+import DownloadNewsletter from './Components/Home/Download'
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         </section>
         <section>
           <YourCreative />
+        </section>
+        <section>
+          <DownloadNewsletter />
         </section>
     </div>
   );
