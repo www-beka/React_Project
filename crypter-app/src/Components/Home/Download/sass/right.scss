@@ -1,0 +1,50 @@
+.Newsletter{
+    background-color: #202025;
+    color: #F7FBFA;
+    padding-left: 80px;
+    .Newsletter-bottom{
+        form{
+            label:nth-child(1) {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #A6AEAD;
+            }
+            div{
+                display: flex;
+            }
+            .user-box{
+                input{
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #555555;
+                    background-color: transparent;
+                    padding: 16px 36px;
+                    margin-bottom: 50px;
+                    color: snow;
+                    margin-right: 20px;
+                    margin-top: 10px;
+                    position: relative;
+                    transition: 0.5s ease;
+                }
+            }   
+            button{
+                border: none;
+                outline: none;
+                padding: 18px 36px;
+                border-radius: 4px;
+                margin-bottom: 80px;
+
+                font-style: normal;
+                font-weight: 800;
+                font-size: 12px;
+                line-height: 24px;
+                letter-spacing: 0.17em;
+                text-transform: uppercase;
+                color: #202025;
+            }
+        }
+    }
+}

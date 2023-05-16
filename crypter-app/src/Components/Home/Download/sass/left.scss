@@ -1,0 +1,40 @@
+.Download{
+    background-color: #DBFF73;
+    color: #202025;
+    padding-left: 80px;
+    .Download_bottom{
+        p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            padding-right: 123px;
+            margin-bottom: 50px;
+        }
+        div{
+            padding-bottom: 80px;
+            button:nth-child(1){
+                background-color: #202025;
+                color: snow;
+            }
+            button{
+                border: none;
+                outline: none;
+                margin-right: 20px;
+                padding: 18px 36px; 
+                border-radius: 4px;
+
+                font-style: normal;
+                font-weight: 800;
+                font-size: 12px;
+                line-height: 24px;
+                letter-spacing: 0.17em;
+                text-transform: uppercase;
+                img{
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
