@@ -4,20 +4,25 @@ import LeftNavBar from "./Left_and_right_Bars/LeftNavBar";
 import RightNavBar from "./Left_and_right_Bars/RightNavBar";
 import Big_NavBar from "./Big_NavBar";
 import "../../../UI/style.scss";
+import { Navbar, Container } from "react-bootstrap";
 const NavBar = () => {
   return (
     <>
+
       <header style={header}>
-        <div>
-          <LeftNavBar />
+        <Container>
+        <div className="header">
+          <div>
+            <LeftNavBar />
+          </div>
+          <div>
+            <RightNavBar />
+          </div>
         </div>
-        <div>
-          <div className="line"></div>
-        </div>
-        <div>
-          <RightNavBar />
-        </div>
+        </Container>
       </header>
+
+
       <nav style={nav}>
         <Big_NavBar />
       </nav>

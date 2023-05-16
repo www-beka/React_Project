@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 const createWork = (props) => {
     return(
         <>
@@ -64,8 +65,8 @@ const createWork = (props) => {
                             </div>
                             <div className="creatework-bottom-right-bottom">
                                 <h1>The creator network.</h1>
-                                <button className="outline-btn">View NFT &#x2799;</button>
-                                <button className='btn'>place a bid</button>
+                                <Button variant="outline-dark">View NFT &#x2799; </Button>
+                                <Button variant="dark">place a bid</Button>
                             </div>
                         </div>
                     </div>
