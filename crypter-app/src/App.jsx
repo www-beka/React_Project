@@ -6,6 +6,7 @@ import Auctionsending from './Components/Home/Auctionsending-sccren'
 import Spotlight_Sccren from './Components/Home/Spotlight-sccren'
 import YourCreative from './Components/Home/YourCreative'
 import DownloadNewsletter from './Components/Home/Download'
+import Footer from './Components/Home/Footer';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </section>
         <section>
           <DownloadNewsletter />
+        </section>
+        <section>
+          <Footer />
         </section>
     </div>
   );
