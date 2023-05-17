@@ -3,6 +3,16 @@ header{
     height: 110px;
     background-color: #fff;
 }
+div{
+    a{
+        text-decoration: none;
+        color: #202025;
+        &:hover{
+            color: #202025;
+        }
+    }
+    
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -45,6 +55,10 @@ ul{
             text-transform: uppercase;
             color: #202025;
             margin-right: 60px;
+            a{
+                text-decoration: none;
+                color: #202025;
+            }
             button{
                 padding: 12px 32px;
                 border: 2px solid #555555;
