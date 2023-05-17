@@ -1,11 +1,13 @@
-// import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 const RightNavBar = () => {
     return(
        <>
         <div className="navbar-right">
             <div>
                 <ul>
-                    <li> DISCOVER </li>
+                    <li>
+                        <Link to='/NoPage'>DISCOVER</Link>
+                    </li>
                     <li> FEED </li>
                     <li> <button>connect wallet</button> </li>
                     <li>

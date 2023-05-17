@@ -1,8 +1,9 @@
-import '../../../../UI/style.scss'
-import nav_sass from '../sass/nav.scss';
-import left_img from '../../../../assets/images/left_nav.png'
-import next from '../../../../assets/images/next.svg'
-import circle from '../../../../assets/icons/placeholder.svg'
+import '../../../UI/style.scss'
+import nav_sass from './sass/nav.scss';
+import left_img from '../../../assets/images/left_nav.png'
+
+import next from '../../../assets/images/next.svg'
+import circle from '../../../assets/icons/placeholder.svg'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container';
