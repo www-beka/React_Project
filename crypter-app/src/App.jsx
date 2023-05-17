@@ -1,40 +1,23 @@
-import logo from './logo.svg';
-import NavBar from './Components/Home/Menu Nav'
-import Main from './Components/Home/Main'
-import DreamSccren from './Components/Home/Dream'
-import Auctionsending from './Components/Home/Auctionsending-sccren'
-import Spotlight_Sccren from './Components/Home/Spotlight-sccren'
-import YourCreative from './Components/Home/YourCreative'
-import DownloadNewsletter from './Components/Home/Download'
-import Footer from './Components/Home/Footer';
-
+import HomePage from "./Components/Home";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import * as React from "react";
+import Layout from './Components/Layout'
+import NoPage from "./Components/NoPage";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route  } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-        <section>
-          <NavBar />
-        </section>
-        <section>
-          <Main />
-        </section>
-        <section>
-          <DreamSccren />
-        </section>
-        <section>
-          <Auctionsending />
-        </section>
-        <section>
-          <Spotlight_Sccren />
-        </section>
-        <section>
-          <YourCreative />
-        </section>
-        <section>
-          <DownloadNewsletter />
-        </section>
-        <section>
-          <Footer />
-        </section>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />} />
+            {/* <Route path="blogs" element={<Blogs />} /> */}
+            {/* <Route path="contact" element={<Contact />} /> */}
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
