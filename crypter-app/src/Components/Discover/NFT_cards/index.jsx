@@ -8,18 +8,16 @@ const DiscoverCard = () => {
                 <Container>
                     <Nav justify variant="tabs" defaultActiveKey="/home">
                         <Nav.Item>
-                            <Nav.Link href="/home">Active</Nav.Link>
+                            <Nav.Link href="">All</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
+                            <Nav.Link eventKey="link-1">NFTs <span>456,789</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="link-2">Link</Nav.Link>
+                            <Nav.Link eventKey="link-2">Collections <span>123,987</span> </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="disabled">
-                            Disabled
-                            </Nav.Link>
+                            <Nav.Link eventKey="disabled">Artist <span>45,678</span> </Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Container>
