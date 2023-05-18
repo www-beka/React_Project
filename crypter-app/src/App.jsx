@@ -1,5 +1,5 @@
 import HomePage from "./Components/Home";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Discover from './Components/Discover'
 import * as React from "react";
 import Layout from './Components/Layout'
 import NoPage from "./Components/NoPage";
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
-            {/* <Route path="blogs" element={<Blogs />} /> */}
+            <Route path="Discover" element={<Discover />} />
             {/* <Route path="contact" element={<Contact />} /> */}
             <Route path="*" element={<NoPage />} />
           </Route>

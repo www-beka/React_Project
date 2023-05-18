@@ -6,7 +6,7 @@ const RightNavBar = () => {
             <div>
                 <ul>
                     <li>
-                        <Link to='/NoPage'>DISCOVER</Link>
+                        <Link to='/Discover'>DISCOVER</Link>
                     </li>
                     <li> FEED </li>
                     <li> <button>connect wallet</button> </li>
