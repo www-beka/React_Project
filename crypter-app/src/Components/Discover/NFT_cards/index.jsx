@@ -1,6 +1,8 @@
 import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import scss from './sass/index.scss';
+import Discover_Card_Sections from './CardsSections';
+
 const DiscoverCard = () => {
     return(
         <>
@@ -22,6 +24,9 @@ const DiscoverCard = () => {
                     </Nav>
                 </Container>
             </div>
+            <main>
+                <Discover_Card_Sections />
+            </main>
 
         </>
     )
