@@ -1,8 +1,10 @@
+import scss from './sass/style.scss';
+
 const NFT_Cards = (props) => {
     return(
         <>
             <div className="cards">
-                <img src={props.img} alt="" />
+                <img src={props.img} alt="" width={330}/>
                 <div className="cards-userName">
                     <img src={props.User} alt="" />
                     <span>{props.UserName}</span>
