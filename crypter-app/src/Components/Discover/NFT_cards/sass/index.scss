@@ -33,6 +33,7 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 130px;
+        margin-bottom: 64px;
         div{
             h1{
                 font-style: normal;
@@ -52,6 +53,25 @@
             img{
                 margin-left: 50px;
             }
+        }
+    }
+    div{
+        button{
+            padding: 12px 32px;
+            border: 2px solid #555555;
+            border-radius: 4px;
+            outline: none;
+            background-color: transparent;
+            margin-top: 100px;
+            margin-bottom: 130px;
+
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 24px;
+            letter-spacing: 0.17em;
+            text-transform: uppercase;
+            color: #202025;
         }
     }
 }

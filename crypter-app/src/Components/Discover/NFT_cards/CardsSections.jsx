@@ -15,6 +15,7 @@ import CardImg_9 from '../../../assets/images/Cards/Cards_9.png'
 import CardImg_10 from '../../../assets/images/Cards/Cards_10.png'
 import CardImg_11 from '../../../assets/images/Cards/Cards_11.png'
 import CardImg_12 from '../../../assets/images/Cards/Cards_12.png'
+import AuctionsendingSccren from '../../Home/Auctionsending-sccren'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -185,8 +186,14 @@ const Discover_Card_Sections = () => {
                             />
                         </Col>
                     </Row>
+                    <center>
+                        <div>
+                            <button>load more</button>
+                        </div>  
+                    </center>
                 </Container>
             </div>
+            <AuctionsendingSccren />
         </>
     )
 }
