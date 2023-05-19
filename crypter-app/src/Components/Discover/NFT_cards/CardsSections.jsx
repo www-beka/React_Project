@@ -1,7 +1,8 @@
 import Card from './Cards'
 import UserAvatar from '../../../assets/images/User(4).png'
 import ColorImg from '../../../assets/icons/Colors.svg' 
-
+import scss from './sass/index.scss'
+import light from '../../../assets/icons/light.svg'
 import CardImg_1 from '../../../assets/images/Cards/Cards_1.png'
 import CardImg_2 from '../../../assets/images/Cards/Cards_2.png'
 import CardImg_3 from '../../../assets/images/Cards/Cards_3.png'
@@ -22,7 +23,17 @@ const Discover_Card_Sections = () => {
         <>
             <div className="Discover_Card_Sections">
                 <Container>
-                    <h1>NFTs</h1> 
+                    <div className="Discover_Card_Sections_title">
+                        <div>
+                            <h1>NFTs</h1> 
+                        </div>
+                        <div>
+                            <span>1 days</span>
+                            <span>7 days</span>
+                            <span>30 days</span>
+                            <img src={light} alt="" />
+                        </div>
+                    </div>
                     {/* row have margin-top = 80px */}
                     <Row>
                         <Col>
