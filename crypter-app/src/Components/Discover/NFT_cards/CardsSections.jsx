@@ -22,6 +22,8 @@ const Discover_Card_Sections = () => {
         <>
             <div className="Discover_Card_Sections">
                 <Container>
+                    <h1>NFTs</h1> 
+                    {/* row have margin-top = 80px */}
                     <Row>
                         <Col>
                             <Card 
@@ -62,6 +64,106 @@ const Discover_Card_Sections = () => {
                         <Col>
                             <Card 
                                 img = {CardImg_4}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Card 
+                                img = {CardImg_5}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                        <Col>
+                            <Card 
+                                img = {CardImg_6}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                        <Col>
+                            <Card 
+                                img = {CardImg_7}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                        <Col>
+                            <Card 
+                                img = {CardImg_8}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Card 
+                                img = {CardImg_9}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                        <Col>
+                            <Card 
+                                img = {CardImg_10}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                        <Col>
+                            <Card 
+                                img = {CardImg_11}
+                                User = {UserAvatar}
+                                UserName = '@elnafrederick'
+                                Colors = {ColorImg}
+                                BidPrice = 'Current bid'
+                                Bid = '0.4321 ETH'
+                                Price = 'Buy now'
+                                Cash = '2.00 ETH'
+                            />
+                        </Col>
+                        <Col>
+                            <Card 
+                                img = {CardImg_12}
                                 User = {UserAvatar}
                                 UserName = '@elnafrederick'
                                 Colors = {ColorImg}

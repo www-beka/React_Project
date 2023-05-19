@@ -1,0 +1,120 @@
+
+.items{
+    div:nth-child(1){
+        img{
+            width: 100%;
+        }
+    }
+
+    .cards-userName{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 10px 16px 10px;
+        border-bottom: 1px solid #E1E2E2;
+        div{
+            display: flex;
+            align-items: center;
+            span{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                margin-left: 12px;
+                color: #202025;
+            }
+            div{
+                width: 40px;
+                height: 40px;
+                background: #BBD6DA;
+                border-radius: 50%;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 33px;
+                    height: 33px;
+                }
+            }
+        }
+    }
+    .cards_price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 10px;
+        .price_left{
+            div{
+                display: flex;
+                align-items: center;
+            }
+            .circle{
+                width: 8px;
+                height: 8px;
+                background: #FD5D47;
+                border-radius: 50%;
+                margin-right: 8px;
+            }
+            span, p{
+                font-style: normal;
+                font-weight: 700;
+            }
+            span{
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.01em;
+                color: #686A6C;
+            }
+            p{
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #202025;
+            }
+        }
+        .price_right{
+            span, p{
+                font-style: normal;
+                font-weight: 700;
+            }
+            span{
+                padding-left: 30px;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.01em;
+                color: #686A6C;
+            }
+            p{
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #202025;
+            }
+        }
+        .price_center{
+            width: 1px;
+            height: 46px;
+            background-color: #D9D9D9;
+        }
+    }
+    transition: 0.5s ease;
+    &:hover{
+        transform: scale(1.1);
+        background: #202025;
+        border-radius: 24px;
+        padding: 20px;
+
+        .cards-userName{
+            span{
+                color: #F7FBFA;
+            }
+        }
+        .price_left, .price_right{
+            p{
+                color: #F7FBFA;
+            }
+        }
+    }
+}
