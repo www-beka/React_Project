@@ -43,6 +43,17 @@ const CardsSections = () => {
                     price = 'Floor price'
                     cash = '1.0 ETH'
                 /> 
+                <Cards 
+                    heroImg = {CardsImg_5}
+                    otherImg_1 = {CardsImg_6}
+                    otherImg_2 = {CardsImg_7}
+                    otherImg_3 = '+4'
+                    title = 'Cute Robot'
+                    userAvatar = {Avatar}
+                    userName = '@tranmautritam'
+                    price = 'Floor price'
+                    cash = '1.0 ETH'
+                /> 
             </div>
         </>
     )
