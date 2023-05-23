@@ -1,6 +1,7 @@
 import BestNFT from "./BestNFT"
 import NFT_cards from "./NFT_cards"
 import PopularCollection from "./PopularCollections"
+import HotUsers_Month from "./HotUsers_Month"
 export default function Discover_Sccren() {
     return(
         <>
@@ -12,6 +13,9 @@ export default function Discover_Sccren() {
             </section>
             <section>
                 <PopularCollection />
+            </section>
+            <section>
+                <HotUsers_Month />
             </section>
         </>
     )
