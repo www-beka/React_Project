@@ -1,0 +1,35 @@
+.PopularCollection_Cards{
+    margin-bottom: 40px;    
+    height: 100%;
+    background: #F7FBFA;
+    border: 1px solid #E1E2E2;
+    border-radius: 32px;
+    padding: 10px;
+    .cards_images{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 5px;
+        img{
+            width: 100%;
+        }
+        .other_images{
+            .counter{
+                // width: 100%;
+                height: 160px;
+                background: #BCE6EC;
+                border-radius: 20px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #202025;
+            }
+        }
+    }
+}

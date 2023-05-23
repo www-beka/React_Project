@@ -16,66 +16,98 @@ import CardsImg_14 from '../../../assets/images/Cards/Cards_3.png';
 import CardsImg_15 from '../../../assets/images/Cards/Cards_7.png';
 import CardsImg_16 from '../../../assets/images/Cards/Cards_4.png';
 import Avatar from '../../../assets/images/User(1).png';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const CardsSections = () => {
     return(
         <>
             <div className="PopularCollections_CardsSections">
-                <Cards 
-                    heroImg = {CardsImg_8}
-                    otherImg_1 = {CardsImg_9}
-                    otherImg_2 = {CardsImg_4}
-                    otherImg_3 = '+4'
-                    title = 'Cute Robot'
-                    userAvatar = {Avatar}
-                    userName = '@tranmautritam'
-                    price = 'Floor price'
-                    cash = '1.0 ETH'
-                /> 
-                <Cards 
-                    heroImg = {CardsImg_5}
-                    otherImg_1 = {CardsImg_6}
-                    otherImg_2 = {CardsImg_7}
-                    otherImg_3 = '+4'
-                    title = 'Cute Robot'
-                    userAvatar = {Avatar}
-                    userName = '@tranmautritam'
-                    price = 'Floor price'
-                    cash = '1.0 ETH'
-                /> 
-                <Cards 
-                    heroImg = {CardsImg_5}
-                    otherImg_1 = {CardsImg_6}
-                    otherImg_2 = {CardsImg_7}
-                    otherImg_3 = '+4'
-                    title = 'Cute Robot'
-                    userAvatar = {Avatar}
-                    userName = '@tranmautritam'
-                    price = 'Floor price'
-                    cash = '1.0 ETH'
-                /> 
-                <Cards 
-                    heroImg = {CardsImg_5}
-                    otherImg_1 = {CardsImg_6}
-                    otherImg_2 = {CardsImg_7}
-                    otherImg_3 = '+4'
-                    title = 'Cute Robot'
-                    userAvatar = {Avatar}
-                    userName = '@tranmautritam'
-                    price = 'Floor price'
-                    cash = '1.0 ETH'
-                /> 
-                <Cards 
-                    heroImg = {CardsImg_5}
-                    otherImg_1 = {CardsImg_6}
-                    otherImg_2 = {CardsImg_7}
-                    otherImg_3 = '+4'
-                    title = 'Cute Robot'
-                    userAvatar = {Avatar}
-                    userName = '@tranmautritam'
-                    price = 'Floor price'
-                    cash = '1.0 ETH'
-                /> 
+                <Container>
+                    <Row>
+                        <Col>
+                            <Cards 
+                                heroImg = {CardsImg_8}
+                                otherImg_1 = {CardsImg_9}
+                                otherImg_2 = {CardsImg_4}
+                                otherImg_3 = '+4'
+                                title = 'Cute Robot'
+                                userAvatar = {Avatar}
+                                userName = '@tranmautritam'
+                                price = 'Floor price'
+                                cash = '1.0 ETH'
+                            /> 
+                        </Col>
+                        <Col>
+                            <Cards 
+                                heroImg = {CardsImg_5}
+                                otherImg_1 = {CardsImg_6}
+                                otherImg_2 = {CardsImg_7}
+                                otherImg_3 = '+4'
+                                title = 'Cute Robot'
+                                userAvatar = {Avatar}
+                                userName = '@tranmautritam'
+                                price = 'Floor price'
+                                cash = '1.0 ETH'
+                            /> 
+                        </Col>
+                    </Row>
+                <Row>
+                    <Col>
+                        <Cards 
+                            heroImg = {CardsImg_11}
+                            otherImg_1 = {CardsImg_13}
+                            otherImg_2 = {CardsImg_14}
+                            otherImg_3 = '+4'
+                            title = 'Cute Robot'
+                            userAvatar = {Avatar}
+                            userName = '@tranmautritam'
+                            price = 'Floor price'
+                            cash = '1.0 ETH'
+                        /> 
+                    </Col>
+                    <Col>
+                        <Cards 
+                            heroImg = {CardsImg_10}
+                            otherImg_1 = {CardsImg_4}
+                            otherImg_2 = {CardsImg_3}
+                            otherImg_3 = '+4'
+                            title = 'Cute Robot'
+                            userAvatar = {Avatar}
+                            userName = '@tranmautritam'
+                            price = 'Floor price'
+                            cash = '1.0 ETH'
+                        /> 
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Cards 
+                            heroImg = {CardsImg_15}
+                            otherImg_1 = {CardsImg_1}
+                            otherImg_2 = {CardsImg_16}
+                            otherImg_3 = '+4'
+                            title = 'Cute Robot'
+                            userAvatar = {Avatar}
+                            userName = '@tranmautritam'
+                            price = 'Floor price'
+                            cash = '1.0 ETH'
+                        /> 
+                    </Col>
+                    <Col>
+                        <Cards 
+                            heroImg = {CardsImg_14}
+                            otherImg_1 = {CardsImg_2}
+                            otherImg_2 = {CardsImg_3}
+                            otherImg_3 = '+4'
+                            title = 'Cute Robot'
+                            userAvatar = {Avatar}
+                            userName = '@tranmautritam'
+                            price = 'Floor price'
+                            cash = '1.0 ETH'
+                        /> 
+                    </Col>
+                </Row>
+                </Container>
             </div>
         </>
     )

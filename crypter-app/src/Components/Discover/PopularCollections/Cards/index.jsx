@@ -1,16 +1,23 @@
+import sass from './sass/index.scss';
+import { Container, Row, Col } from 'react-bootstrap';
+
 const PopularCollection_Cards = (props) => {
     return(
         <>
             <div className="PopularCollection_Cards">
                 <div className="cards_images">
-                    <img src={props.heroImg} alt="" />
-                    <div>
+                    <div className="hero_images">
+                        <img src={props.heroImg} alt="" />
+                    </div>
+                    <div className='other_images'>
                         <img src={props.otherImg_1} alt="" />
+
                         <img src={props.otherImg_2} alt="" />
                         <div className="counter">
                             <span>{props.otherImg_3}</span>
                         </div>
                     </div>
+
                 </div>
                 <div className="cards_desk">
                     <div className="cards_left_desk">
