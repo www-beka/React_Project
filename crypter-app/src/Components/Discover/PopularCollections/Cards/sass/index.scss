@@ -14,19 +14,35 @@
         }
         .other_images{
             .counter{
-                // width: 100%;
-                height: 160px;
+                width: 100%;
                 background: #BCE6EC;
                 border-radius: 20px;
-
+    
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
+    
                 font-style: normal;
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #202025;
+            }
+            img{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .cards_desk{
+        margin-top: 50px;
+        display: flex;
+        .cards_left_desk{
+            p{
+                font-style: normal;
+                font-weight: 800;
+                font-size: 32px;
+                line-height: 40px;
                 letter-spacing: -0.02em;
                 color: #202025;
             }
