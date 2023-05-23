@@ -1,5 +1,4 @@
 import sass from './sass/index.scss';
-import { Container, Row, Col } from 'react-bootstrap';
 
 const PopularCollection_Cards = (props) => {
     return(
@@ -21,9 +20,11 @@ const PopularCollection_Cards = (props) => {
                     <div className="cards_left_desk">
                         <p>{props.title}</p>
                         <div className="user">
-                            <img src={props.userAvatar} alt="" width={32}/>
+                            <span>
+                                <img src={props.userAvatar} alt="" width={32}/>
+                            </span>
+                            <b>{props.userName}</b>
                         </div>
-                        <b>{props.userName}</b>
                     </div>
                     <div className="cards_right_desk">
                         <span>{props.price}</span>
