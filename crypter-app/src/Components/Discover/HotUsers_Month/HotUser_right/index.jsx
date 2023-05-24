@@ -81,6 +81,9 @@ const HotUsers_Month_Right = () => {
                         Follow
                     </button>
                 </div>
+                <center>
+                    <button className='btn-large'>LOAD MORE</button>
+                </center>
                 </Container>
             </div>
         </>
