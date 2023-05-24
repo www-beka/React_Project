@@ -1,0 +1,39 @@
+.HotUsers_Month_Left{
+    background: #B9A9FB;
+    padding: 80px;
+    .left-top{
+        display: flex;
+        h1{
+            width: 519px;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 80px;
+            line-height: 80px;
+            letter-spacing: -0.02em;
+            color: #202025;
+        }
+        div{
+            width: 80px;
+            height: 80px;
+            background: #F7FBFA;
+            border: 1px solid #F1F4F4;
+            box-shadow: 0px 20px 16px -6px rgba(0, 0, 0, 0.15);
+            border-radius: 80px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .left-bottom{
+        p{
+            width: 504px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            color: #202025;
+        }
+    }
+}
