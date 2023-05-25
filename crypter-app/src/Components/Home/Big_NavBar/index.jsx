@@ -56,7 +56,7 @@ const createWork = (props) => {
                                         <b>10.00 ETH</b>
                                     </div>
                                 </div>
-                                <div className="balance-items">
+                                <div className="balance-items last-balance">
                                     <span>Reserve</span>
                                     <div>
                                         <img src={circle} alt="" />
