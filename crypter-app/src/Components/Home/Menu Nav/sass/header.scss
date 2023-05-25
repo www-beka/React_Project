@@ -1,6 +1,6 @@
 header{
     border-bottom: 1px solid #b2b8b6;
-    height: 110px;
+    padding-bottom: 20px;
     background-color: #fff;
 }
 div{
@@ -22,7 +22,7 @@ div{
 .navbar-left{
     .navbar-logo{
         display: flex;
-        div{
+        a{
             display: flex;
             align-items: center;
         }
@@ -73,24 +73,24 @@ ul{
                 text-transform: uppercase;
                 color: #202025;
                 cursor: pointer;
-            }   
-            .burger-menu{
+            } 
+        }
+        .burger-menu{
+            width: 24px;
+            height: 12px;
+            .burger-liner{
+                background: #202025;
+                border-radius: 4px;
+                margin-bottom: 10px;
+            }
+            .burger-liner:nth-child(1){
                 width: 24px;
-                height: 12px;
-                .burger-liner{
-                    background: #202025;
-                    border-radius: 4px;
-                    margin-bottom: 10px;
-                }
-                .burger-liner:nth-child(1){
-                    width: 24px;
-                    height: 4px;
-                }
-                .burger-liner:nth-child(2){
-                    width: 18px;
-                    height: 3px;
-                    margin-top: 6px;
-                }
+                height: 4px;
+            }
+            .burger-liner:nth-child(2){
+                width: 18px;
+                height: 3px;
+                margin-top: 6px;
             }
         }
     }

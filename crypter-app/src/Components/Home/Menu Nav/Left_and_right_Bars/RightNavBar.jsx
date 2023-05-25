@@ -10,12 +10,12 @@ const RightNavBar = () => {
                     </li>
                     <li> FEED </li>
                     <li> <button>connect wallet</button> </li>
-                    <li>
+                    {/* <li> */}
                         <div className="burger-menu">
                             <div className="burger-liner"></div>
                             <div className="burger-liner"></div>
                         </div>
-                    </li>
+                    {/* </li> */}
                 </ul>
             </div>
         </div>
