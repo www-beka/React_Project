@@ -3,10 +3,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 380px;
     .card{
-        background-color: #eee;
+        background-color: #F1F4F4;
         border: 1px solid #E1E2E2;
         transition: 0.5s ease;
         position: relative;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
