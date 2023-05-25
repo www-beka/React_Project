@@ -1,14 +1,15 @@
 .dreamSccren{
     width: 100%;
-    height: 120vh;
     background-color: #010101;
     color: snow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px;
     .dreamSccren-top{
         display: flex;
         flex-direction: column;
+        margin-top: 90px;
     }
     .dreamSccren-left-top{
         .userAndEsc{

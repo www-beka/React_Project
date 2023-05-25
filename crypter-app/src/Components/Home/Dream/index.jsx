@@ -2,26 +2,29 @@ import sass from './sass/style.scss'
 import Rihgt_img from '../../../assets/images/dreamSccren.png'
 import esc_logo from '../../../assets/images/dream.png'
 import user_1 from '../../../assets/images/User(1).png'
+import { Container } from 'react-bootstrap'
 const DreamSccren = () => {
     return(
         <>
             <div className="dreamSccren">
                 <div className="dreamSccren-top">
-                    <div className="dreamSccren-left-top">
-                        <div className="userAndEsc">
-                            <div className="user">
-                                <div>
-                                    <img src={user_1} alt="" />
+                    <Container>
+                        <div className="dreamSccren-left-top">
+                            <div className="userAndEsc">
+                                <div className="user">
+                                    <div>
+                                        <img src={user_1} alt="" />
+                                    </div>
+                                    <span>@randomdash</span>
                                 </div>
-                                <span>@randomdash</span>
+                                <div className="esc">
+                                    <img src={esc_logo} alt="" />
+                                    <span>Escape</span>
+                                </div>
                             </div>
-                            <div className="esc">
-                                <img src={esc_logo} alt="" />
-                                <span>Escape</span>
-                            </div>
+                            <h1>Beyond the Dream.</h1>
                         </div>
-                        <h1>Beyond the Dream.</h1>
-                    </div>
+
                     <div className="dreamSccren-left-bottom">
                         <div className="price">
                             <b>Buy now price</b>
@@ -30,10 +33,13 @@ const DreamSccren = () => {
                         </div>
                         <button>MAKE OFFER</button>
                     </div>
-                    </div>
-                <div className="dreamSccren-right">
-                    <img src={Rihgt_img} alt="" />
+                    </Container>
                 </div>
+                 <Container>
+                    <div className="dreamSccren-right">
+                        <img src={Rihgt_img} alt="" />
+                    </div>
+                </Container>
             </div>
         </>
     )
