@@ -5,6 +5,7 @@ import Auctionsending from "./Auctionsending-sccren"
 import Spotlight_Sccren from "./Spotlight-sccren"
 import YourCreative from "./YourCreative"
 import BigNavbar from './Big_NavBar'
+import Download from './Download'
 import scss from './Mobile/index.scss'
 
 
@@ -30,6 +31,10 @@ const HomePage = () => {
                 <section>
                     <YourCreative />
                 </section>
+                <section>
+                    <Download />
+                </section>
+
             </div>           
         </>
     )
