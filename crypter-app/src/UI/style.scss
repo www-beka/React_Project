@@ -69,5 +69,13 @@
     }
 }
 .no-page{
-    height: calc(100vh - 100px);
+    height: 100vh;
+    background: url(../assets/images/no_page.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
