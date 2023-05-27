@@ -3,10 +3,11 @@ import sass from './sass/index.scss'
 import Logo from '../../assets/logo2.svg'
 import { Container, Dropdown } from "react-bootstrap"
 import Login from "./Login"
+import Register from "./Register"
 import { useState } from "react";
 
 const Authentication = () => {
-    const [text, settext] = useState("");
+    let [registered, setRegistered] = useState(true);
 
     return(
         <>
@@ -20,7 +21,7 @@ const Authentication = () => {
                             <Dropdown>
                                 <Dropdown.Toggle id="dropdown-basic">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="" /> 
-                                    <span id="launges">UK</span>
+                                    <b id="launges">UK</b>
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
                                     <Dropdown.Item id="UK">UK</Dropdown.Item>
@@ -29,12 +30,19 @@ const Authentication = () => {
                             </Dropdown>
                             </div>
                         <Container>
-                             <Login />
+                        <div className={registered ? 'visible' : 'invisible'}>
+                            <Login />
+                        </div>
+                        <div className={registered ? 'invisible' : 'visible'}>
+                            <Register />
+                        </div>
                         </Container>
                     </Container>
                 </div>
                 <div className="Authentication-right">
-                    <img src="https://v2.cimg.co/news/100430/248406/polina-kondrashova-fhrwah2hmnm-unsplash.jpg" alt="" />
+                    <button onClick={() => { setRegistered(true) }}>ВОЙТИ</button>
+                    <button onClick={() => { setRegistered(false) }}>СОЗДАТЬ АККАУНТ</button>
+                    <p>go anywhere you want in a Crypter full of wonders</p>
                 </div>
             </div>
         </>

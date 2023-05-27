@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 6fr 6fr;
     color: snow;
+    width: 100%;
+    height: 100vh;
     .Authentication-left{
         background: linear-gradient(#141e30, #243b55);
         padding: 0 24px;
@@ -10,6 +12,13 @@
             justify-content: space-between;
             align-items: center;
             padding: 12px 0;
+            span{
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 40px;
+                text-transform: uppercase;
+            }
         }
         .dropdown{
             button{
@@ -24,8 +33,22 @@
         }
     }
     .Authentication-right{
-        img{
-            width: 100%;
+        width: 100%;
+        height: 100vh;
+        background: url(https://v2.cimg.co/news/100430/248406/polina-kondrashova-fhrwah2hmnm-unsplash.jpg) center no-repeat;
+        background-size: cover;
+        button{
+            float: right;
+            border: none;
+            outline: none;
+            margin: 10px 20px;
+            padding: 8px 24px;
+            border-radius: 10px;
+            color: snow;
+            background: linear-gradient(45deg,#141e30, #243b55, #141e30); 
         }
     }
 }
+
+.visible { display: block; }
+.invisible { display: none; }
