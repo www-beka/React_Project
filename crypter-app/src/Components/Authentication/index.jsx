@@ -42,9 +42,7 @@ const Authentication = () => {
                 <div className="Authentication-right">
                     <button onClick={() => { setRegistered(true) }}>ВОЙТИ</button>
                     <button onClick={() => { setRegistered(false) }}>СОЗДАТЬ АККАУНТ</button>
-                    <p>go anywhere you want in a Crypter full of wonders</p>
-                    <p>go anywhere you want in a Crypter full of wonders</p>
-                    <p>go anywhere you want in a Crypter full of wonders</p>
+                    <p>Go anywhere you want in a Crypter full of wonders</p>
                 </div>
             </div>
         </>
