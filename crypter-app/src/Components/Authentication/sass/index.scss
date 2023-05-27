@@ -1,0 +1,49 @@
+.Authentication{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    .Authentication-left{
+        padding: 0 24px;
+        .LanguesBar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            span{
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 40px;
+                text-transform: uppercase;
+            }
+            select{
+                padding: 5px 16px;
+                outline: none;
+                background-color: transparent;
+                border-radius: 12px;
+            }
+        }
+        .login{
+            text-align: center;
+            h1{
+                font-weight: 900;
+                font-size: 76px;
+                line-height: 40px;
+            }
+            p{
+                margin-top: 30px;
+                color: gray;
+            }
+            button{
+                padding: 8px 24px;
+                img{
+                    width: 15px;
+                }
+            }
+        }
+    }
+    .Authentication-right{
+        img{
+            width: 100%;
+        }
+    }
+}
