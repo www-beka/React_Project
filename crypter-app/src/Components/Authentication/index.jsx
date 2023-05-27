@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
-import Logo from '../../assets/logo.svg'
 import sass from './sass/index.scss'
-import { Container } from "react-bootstrap"
+import Logo from '../../assets/logo2.svg'
+import { Container, Dropdown } from "react-bootstrap"
+import Login from "./Login"
+import { useState } from "react";
 
 const Authentication = () => {
+    const [text, settext] = useState("");
+
     return(
         <>
             <div className="Authentication">
@@ -13,27 +17,19 @@ const Authentication = () => {
                             <span>
                                 <img src={Logo} alt="" /> Crypter
                             </span>
-                            <select id="cars">
-                                <option value="EN" selected> EN</option>
-                                <option value="RU">RU</option>
-                            </select>
-                        </div>
+                            <Dropdown>
+                                <Dropdown.Toggle id="dropdown-basic">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="" /> 
+                                    <span id="launges">UK</span>
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu>
+                                    <Dropdown.Item id="UK">UK</Dropdown.Item>
+                                    <Dropdown.Item id="RU">RU</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                            </div>
                         <Container>
-                            <div className="login">
-                                <h1>Hi there!</h1>
-                                <p>Welcome to Crypter. Largest NFT market</p>
-                                <button> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png" alt="Google"/> Login with Google </button>
-                                <div className="line"></div>
-                                <span>or</span>
-                                <div className="line"></div>
-                                <form action="">
-                                    <input type="email"  placeholder="Your email"/>
-                                    <input type="password"  placeholder="Password"/>
-                                    <span>Forgot password?</span>
-                                    <button>Log in</button>
-                                    <p>Don't have an accoutn? <span>Sign Up</span></p>
-                                </form>
-                            </div>  
+                             <Login />
                         </Container>
                     </Container>
                 </div>
