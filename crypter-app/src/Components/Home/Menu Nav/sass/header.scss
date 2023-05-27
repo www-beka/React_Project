@@ -38,14 +38,15 @@ div{
     }
 }
 ul{
-    list-style: none;
     display: flex;
+    list-style: none;
 }
 .navbar-right {
     ul{
         display: flex;
         align-items: center;
         li{
+            list-style: none;
             cursor: pointer;
             font-style: normal;
             font-weight: 800;
@@ -54,7 +55,12 @@ ul{
             letter-spacing: 0.17em;
             text-transform: uppercase;
             color: #202025;
-            margin-right: 60px;
+            margin-right: 40px; 
+            span{
+                padding: 10px 20px;
+                background-color: #00ffd5;
+                border-radius: 10px;
+            }
             a{
                 text-decoration: none;
                 color: #202025;
@@ -76,22 +82,60 @@ ul{
             } 
         }
         .burger-menu{
-            width: 24px;
+            cursor: pointer;
+            width: 30px;
             height: 12px;
             .burger-liner{
                 background: #202025;
                 border-radius: 4px;
-                margin-bottom: 10px;
+                margin-bottom: 5px;
             }
             .burger-liner:nth-child(1){
-                width: 24px;
+                width: 30px;
                 height: 4px;
             }
             .burger-liner:nth-child(2){
-                width: 18px;
-                height: 3px;
-                margin-top: 6px;
+                width: 30px;
+                height: 4px;
+            }
+            .burger-liner:nth-child(3) {
+                width: 30px;
+                height: 4px;
             }
         }
+    }
+}
+.offcanvas-body{
+    li{
+        cursor: pointer;
+        list-style: none;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        color: #202025;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        a{
+            text-decoration: none;
+            color: #202025;
+        }
+        button{
+            padding: 12px 32px;
+            border: 2px solid #555555;
+            border-radius: 4px;
+            outline: none;
+            background-color: #fff;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 24px;
+            letter-spacing: 0.17em;
+            text-transform: uppercase;
+            color: #202025;
+            cursor: pointer;
+        } 
     }
 }

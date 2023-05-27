@@ -1,5 +1,6 @@
 import HomePage from "./Components/Home";
 import Discover from './Components/Discover'
+import Authentication from './Components/Authentication'
 import * as React from "react";
 import Layout from './Components/Layout'
 import NoPage from "./Components/NoPage";
@@ -13,6 +14,8 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="Discover" element={<Discover />} />
+            <Route path="Discover" element={<Discover />} />
+            <Route path="Authentication" element={<Authentication />} />
             {/* <Route path="contact" element={<Contact />} /> */}
             <Route path="*" element={<NoPage />} />
           </Route>

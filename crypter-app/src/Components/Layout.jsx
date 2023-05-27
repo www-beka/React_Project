@@ -6,11 +6,11 @@ import Download from "./Home/Download";
 const Layout = () => {
     return (
         <>
-        <NavBar />
+        {/* <NavBar /> */}
         <Outlet />
-        <Footer />
+        {/* <Footer /> */}
         </>
     )
 };
 
-export default Layout;
+export default Layout;  

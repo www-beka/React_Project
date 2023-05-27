@@ -6,6 +6,7 @@ import Spotlight_Sccren from "./Spotlight-sccren"
 import YourCreative from "./YourCreative"
 import BigNavbar from './Big_NavBar'
 import Download from './Download'
+import Footer from './Footer'
 import scss from './Mobile/index.scss'
 
 
@@ -13,6 +14,9 @@ const HomePage = () => {
     return(
         <>
             <div className="homePage">
+                <section>
+                    <NavBar />
+                </section>
                 <section>
                     <BigNavbar />
                 </section>
@@ -34,7 +38,9 @@ const HomePage = () => {
                 <section>
                     <Download />
                 </section>
-
+                <section>
+                    <Footer />
+                </section>
             </div>           
         </>
     )

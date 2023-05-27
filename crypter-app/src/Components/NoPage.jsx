@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import No_Page from '../assets/images/no_page.jpg';
 
 const NoPage = () => {
+
     return(
         <>
             <div className="no-page">
