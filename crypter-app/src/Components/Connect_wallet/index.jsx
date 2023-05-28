@@ -6,8 +6,13 @@ import Placeholder from '../../assets/icons/placeholder.svg'
 import Logo from '../../assets/logo.svg'
 import NextLogo from '../../assets/icons/Vector_next.svg'
 import scss from './sass/index.scss'
+import { useState } from 'react'
 
 const Connect_Wallet = () => {
+    let [registered, setRegistered] = useState(true);
+    let registerBB = { "border-bottom": "1px solid #fff" }
+    let loginBB = { "border-bottom": "1px solid #999" }
+
     return(
         <>
             <div className="Connect_Wallet" style={scss}>
@@ -28,10 +33,10 @@ const Connect_Wallet = () => {
                     <div className="close">&#x2715;</div>
                     <h1>Choose the wallet</h1>
                     <div className="NavTabs">
-                        <span>Ethereum</span>
-                        <span>Flow</span>
-                        <span>Solana</span>
-                        <span>Polygon</span>
+                        <span onClick={() => { setRegistered(true) }} style={registered ? registerBB : null}>Ethereum</span>
+                        <span onClick={() => { setRegistered(false) }} style={registered ? null : registerBB}>Flow</span>
+                        <span onClick={() => { setRegistered(false) }} style={registered ? null : null = registerBB}>Solana</span>
+                        <span onClick={() => { setRegistered(false) }} style={registered ? null : null}>Polygon</span>
                     </div>
                     <div className="wallets">
                         <div className="wallet_items">
