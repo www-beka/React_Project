@@ -12,6 +12,7 @@ const Connect_Wallet = () => {
     let [registered, setRegistered] = useState(true);
     let registerBB = { "border-bottom": "1px solid #fff" }
     let loginBB = { "border-bottom": "1px solid #999" }
+    let borderNone = { "border-bottom": "none"}
 
     return(
         <>
@@ -34,8 +35,8 @@ const Connect_Wallet = () => {
                     <h1>Choose the wallet</h1>
                     <div className="NavTabs">
                         <span onClick={() => { setRegistered(true) }} style={registered ? registerBB : null}>Ethereum</span>
-                        <span onClick={() => { setRegistered(false) }} style={registered ? null : registerBB}>Flow</span>
-                        <span onClick={() => { setRegistered(false) }} style={registered ? null : null = registerBB}>Solana</span>
+                        <span onClick={() => { setRegistered(false) }} style={registered ? borderNone : registerBB}>Flow</span>
+                        <span onClick={() => { setRegistered(false) }} style={registered ? borderNone : registerBB ? borderNone : null}>Solana</span>
                         <span onClick={() => { setRegistered(false) }} style={registered ? null : null}>Polygon</span>
                     </div>
                     <div className="wallets">
