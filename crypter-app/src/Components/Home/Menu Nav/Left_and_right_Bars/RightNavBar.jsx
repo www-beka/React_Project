@@ -37,7 +37,7 @@ const RightNavBar = ({ name, ...props }) => {
                                     <Link to='/Discover'>DISCOVER</Link>
                                 </li>
                                 <li>FEED</li>
-                                <li> <button>connect wallet</button> </li>
+                                <li> <button> <Link to='/Connect_Wallet'>connect wallet</Link> </button> </li>
                           </Offcanvas.Body>
                         </Offcanvas>
                     {/* </li> */}
