@@ -12,7 +12,6 @@ const Connect_Wallet = () => {
     let [registered, setRegistered] = useState(true);
     let registerBB = { "border-bottom": "1px solid #fff" }
     let loginBB = { "border-bottom": "1px solid #999" }
-    let borderNone = { "border-bottom": "none"}
 
     return(
         <>
@@ -28,7 +27,6 @@ const Connect_Wallet = () => {
                         </div>
                         <p>Choose how you want to connect. There areseveral wallet providers.</p>
                     </div>
-
                 </div>
                 <div className="Connect_Wallet_right">
                     <div className="close">&#x2715;</div>
