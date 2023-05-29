@@ -4,10 +4,10 @@ import MyEtherWallet from '../../assets/icons/MyEtherWallet.svg'
 import WalletConnect from '../../assets/icons/WalletConnect.svg'
 import Placeholder from '../../assets/icons/placeholder.svg'
 import Logo from '../../assets/logo.svg'
-import NextLogo from '../../assets/icons/Vector_next.svg'
+import NextLogo from '../../assets/icons/next.svg'
+import Next from '../../assets/icons/Vector_next.svg'
 import scss from './sass/index.scss'
-import { useState } from 'react'
-import { NavLink } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Connect_Wallet = () => {
     return(
@@ -20,13 +20,17 @@ const Connect_Wallet = () => {
                     <div className="Connect_Wallet_left_bottom">
                         <div>
                             <h1>Connect wallet.</h1>
-                            <button><img src={NextLogo} alt="" /> </button>
+                            <button><img src={Next} alt="" /> </button>
                         </div>
                         <p>Choose how you want to connect. There areseveral wallet providers.</p>
                     </div>
                 </div>
                 <div className="Connect_Wallet_right">
-                    <div className="close">&#x2715;</div>
+                    <div className="close">
+                        <Link to='/'>
+                            &#x2715;
+                        </Link>
+                    </div>
                     <h1>Choose the wallet</h1>
                     <div className="NavTabs">
                         <span>Ethereum</span>
@@ -37,15 +41,19 @@ const Connect_Wallet = () => {
                     <div className="wallets">
                         <div className="wallet_items">
                             <span> <img src={MetaMaskWallet} alt="walletLogo" /> MetaMask</span>
+                            <img src={NextLogo} alt="" width={0}/>
                         </div>
                         <div className="wallet_items">
                             <span> <img src={WalletConnect} alt="walletLogo" /> WalletConnect</span>
+                            <img src={NextLogo} alt="" width={0}/>
                         </div>
                         <div className="wallet_items">
                             <span> <img src={CoinbaseWallet} alt="walletLogo" /> Coinbase Wallet</span>
+                            <img src={NextLogo} alt="" width={0}/>
                         </div>
                         <div className="wallet_items">
                             <span> <img src={MyEtherWallet} alt="walletLogo" /> MyEtherWallet</span>
+                            <img src={NextLogo} alt="" width={0}/>
                         </div>
                     </div>
                     <div className="scan_connect">
