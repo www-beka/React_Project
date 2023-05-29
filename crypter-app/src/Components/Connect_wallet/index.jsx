@@ -3,28 +3,19 @@ import CoinbaseWallet from '../../assets/icons/CoinbaseWallet.svg'
 import MyEtherWallet from '../../assets/icons/MyEtherWallet.svg'
 import WalletConnect from '../../assets/icons/WalletConnect.svg'
 import Placeholder from '../../assets/icons/placeholder.svg'
-import Logo from '../../assets/logo.svg'
+
 import NextLogo from '../../assets/icons/next.svg'
-import Next from '../../assets/icons/Vector_next.svg'
 import scss from './sass/index.scss'
 import { Link } from 'react-router-dom'
+import ConnetWalletLeft from './ConnetWallerLeft'
 
 const Connect_Wallet = () => {
     return(
         <>
             <div className="Connect_Wallet" style={scss}>
-                <div className="Connect_Wallet_left">
-                    <div className="Connect_Wallet_left_top">
-                        <span><img src={Logo} alt="logo" /> crypter </span>   
-                    </div>
-                    <div className="Connect_Wallet_left_bottom">
-                        <div>
-                            <h1>Connect wallet.</h1>
-                            <button><img src={Next} alt="" /> </button>
-                        </div>
-                        <p>Choose how you want to connect. There areseveral wallet providers.</p>
-                    </div>
-                </div>
+                
+                <ConnetWalletLeft />
+                
                 <div className="Connect_Wallet_right">
                     <div className="close">
                         <Link to='/'>
