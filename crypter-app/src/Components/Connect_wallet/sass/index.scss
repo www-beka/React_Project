@@ -93,6 +93,7 @@
         .NavTabs{
             border-bottom: 1px solid #202025;
             padding-bottom: 16px;
+            margin-bottom: 50px;
             span{
                 padding: 16px 32px;
                 font-style: normal;
@@ -102,6 +103,37 @@
                 text-align: center;
                 letter-spacing: -0.01em;
                 color: #F7FBFA;
+            }
+            span:nth-child(2),span:nth-child(3),span:nth-child(4){
+                color: gray;
+            }
+        }
+        .wallets{
+            .wallet_items{
+                border: 2px solid #202025;
+                border-radius: 12px;
+                padding: 20px 32px;
+                margin-bottom: 10px;
+                span{
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: -0.02em;
+                    color: #E1E2E2;
+                    img{
+                        margin-right: 10px;
+                    }
+
+                    display: flex;
+                    align-items: center;
+                }
+                transition: 0.5s ease;
+                &:hover{
+                    border-radius: 12px;
+                    border: 2px solid;
+                    border-image: linear-gradient(#FFE249, #F35950, #7C5BFF, #1CE4FF, #5FFF5C) 12;
+                }
             }
         }
     }

@@ -7,12 +7,9 @@ import Logo from '../../assets/logo.svg'
 import NextLogo from '../../assets/icons/Vector_next.svg'
 import scss from './sass/index.scss'
 import { useState } from 'react'
+import { NavLink } from 'react-bootstrap'
 
 const Connect_Wallet = () => {
-    let [registered, setRegistered] = useState(true);
-    let registerBB = { "border-bottom": "1px solid #fff" }
-    let loginBB = { "border-bottom": "1px solid #999" }
-
     return(
         <>
             <div className="Connect_Wallet" style={scss}>
@@ -32,10 +29,10 @@ const Connect_Wallet = () => {
                     <div className="close">&#x2715;</div>
                     <h1>Choose the wallet</h1>
                     <div className="NavTabs">
-                        <span onClick={() => { setRegistered(true) }} style={registered ? registerBB : null}>Ethereum</span>
-                        <span onClick={() => { setRegistered(false) }} style={registered ? borderNone : registerBB}>Flow</span>
-                        <span onClick={() => { setRegistered(false) }} style={registered ? borderNone : registerBB ? borderNone : null}>Solana</span>
-                        <span onClick={() => { setRegistered(false) }} style={registered ? null : null}>Polygon</span>
+                        <span>Ethereum</span>
+                        <span>Flow</span>
+                        <span>Polygon</span>
+                        <span>Solana</span>
                     </div>
                     <div className="wallets">
                         <div className="wallet_items">
