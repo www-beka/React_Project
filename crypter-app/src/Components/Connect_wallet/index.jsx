@@ -48,7 +48,12 @@ const Connect_Wallet = () => {
                         </div>
                     </div>
                     <div className="scan_connect">
-                        <span> <img src={Placeholder} alt="" /> Scan to connect</span>
+                        <span> 
+                            <img src={Placeholder} alt="" /> 
+                            <Link to='/ScanConnect'>
+                                Scan to connect
+                            </Link>
+                        </span>
                     </div>
                     <div className="cookies">
                         <p>We use 🍪 <b>cookies</b> for better experience</p>

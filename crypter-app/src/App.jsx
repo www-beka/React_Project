@@ -7,6 +7,7 @@ import NoPage from "./Components/NoPage";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route  } from "react-router-dom";
 import Connect_Wallet from './Components/Connect_wallet'
+import ScanConnect from "./Components/Connect_wallet/ScanConnect";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="Discover" element={<Discover />} />
             <Route path="Authentication" element={<Authentication />} />
             <Route path="Connect_Wallet" element={<Connect_Wallet />} />
+            <Route path="ScanConnect" element={<ScanConnect />} />
             {/* <Route path="contact" element={<Contact />} /> */}
             <Route path="*" element={<NoPage />} />
           </Route>
