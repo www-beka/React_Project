@@ -1,11 +1,13 @@
-import Connect_Wallet_left from "../ConnetWallerLeft"
+import Connect_Wallet_left from "../WalletLeftRight/ConnetWallerLeft"
 import scss from '../sass/index.scss'
 const ScanConnect = () => {
     return(
         <>
-            <section>
-                <Connect_Wallet_left />
-            </section>
+           <div className="Connect_Wallet ScanConnect">
+                <section>
+                    <Connect_Wallet_left />
+                </section>
+           </div>
         </>
     )
 }
