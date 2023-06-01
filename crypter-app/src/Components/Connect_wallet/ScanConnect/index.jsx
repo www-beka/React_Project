@@ -4,9 +4,10 @@ const ScanConnect = () => {
     return(
         <>
            <div className="Connect_Wallet ScanConnect">
-                <section>
-                    <Connect_Wallet_left />
-                </section>
+            <Connect_Wallet_left />
+            <div className="Connect_Wallet_right">
+                
+            </div>
            </div>
         </>
     )

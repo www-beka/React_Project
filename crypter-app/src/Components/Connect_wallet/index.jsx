@@ -6,13 +6,8 @@ const Connect_Wallet = () => {
     return(
         <>
             <div className="Connect_Wallet" style={scss}>
-                
-                <section>
-                    <ConnetWalletLeft />
-                </section>
-                <section>
-                    <ConnetWalletRight />
-                </section>
+                <ConnetWalletLeft />
+                <ConnetWalletRight />
             </div>
         </>
     )
