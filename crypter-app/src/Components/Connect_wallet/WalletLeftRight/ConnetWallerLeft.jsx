@@ -1,6 +1,7 @@
 import Logo from '../../../assets/logo.svg'
 import Next from '../../../assets/icons/Vector_next.svg'
 import scss from '../sass/index.scss'; 
+
 const Connect_Wallet_left = () => {
     return(
         <>
@@ -9,7 +10,7 @@ const Connect_Wallet_left = () => {
                         <span><img src={Logo} alt="logo" /> crypter </span>   
                     </div>
                     <div className="Connect_Wallet_left_bottom">
-                        <div>
+                        <div>           
                             <h1>Connect wallet.</h1>
                             <button><img src={Next} alt="" /> </button>
                         </div>
