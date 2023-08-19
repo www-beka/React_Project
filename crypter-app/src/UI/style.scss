@@ -78,4 +78,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+    color: snow;
+    p{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 4px 100px;
+        border-radius: 15px;
+        background-color: #D44E5B;
+        a{
+            color: snow;
+        }
+    }
 }

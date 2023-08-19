@@ -19,7 +19,7 @@ export default function Footer() {
                     <div className="footer-top-right">
                         <div className="footer_links">
                             <div className="links_title">
-                                <span>CRYPTER.</span>
+                                <a href='#top_id'>CRYPTER.</a>
                             </div>
                             <div className="all_links">
                             {/* Now I use span but in the future I need to change to React => links  👇🏻*/}
@@ -68,7 +68,7 @@ export default function Footer() {
                             <button>ACCEPT</button>
                         </div>
                     </div>
-                        </Container>
+            </Container>
                 </div>
         </footer>
     </>
